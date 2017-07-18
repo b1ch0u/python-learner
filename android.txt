@@ -1,0 +1,3 @@
+title=Python Learner
+author=Sébastien Julliot
+orientation=portrait
