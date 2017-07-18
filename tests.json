@@ -1,0 +1,55 @@
+[
+    {
+        "name": "42 is the answer",
+         "filename": "tests/42_is_the_answer.py",
+         "description": "Write a function f that takes an integer n, and always returns 42."
+    },
+
+    {
+        "name": "Squares, squares everywhere - 1",
+         "filename": "tests/squares_everywhere_1.py",
+         "description": "Write a function f that takes an integer n, and returns n squared."
+    },
+
+    {
+        "name": "Squares, squares everywhere - 2",
+         "filename": "tests/squares_everywhere_2.py",
+         "description": "Write a function f that takes a list of integers l, and returns the list of these integers squared."
+    },
+
+    {
+        "name": "I'm just the average guy, you know",
+         "filename": "tests/average_guy.py",
+         "description": "Write a function average that takes an list of integers l, and returns its average."
+    },
+
+    {
+        "name": "The white rabbits",
+        "filename": "tests/fibonacci.py",
+        "description": "Write a function fib that takes a positive integer n, and return the n'th term of the fibonacci sequence, given by :\n\nu_0=0\nu_1=1\nu_(n+2) = u_(n+1) + u_n for all n > 1."
+    },
+
+    {
+        "name": "What's mine is yours and what's yours is mine",
+        "filename": "tests/intersection.py",
+        "description": "Write a function inter that takes two lists l1 and l2, and returns the lists of all elements that are in l1 AND in l2"
+    },
+
+    {
+        "name": "Dot product",
+        "filename": "tests/dot_product.py",
+        "description": "Write a function dot that takes two vectors u and v (as lists of integers), and returns their dot product.\nu and v might be assumed to be of same dimension."
+    },
+
+    {
+        "name": "Sum of vectors - 1",
+        "filename": "tests/sum_of_vectors_1.py",
+        "description": "Write a function vect_sum that takes a list of vectors l, and returns the sum of theses vectors.\nFor the moment, you might assume that all vectors are of dimension 2 (being stored as 2-tuples).\nl will never be empty.\n\nHint: don't forget that the result should be a tuple, not a list ;)"
+    },
+
+    {
+        "name": "Sum of vectors - 2",
+        "filename": "tests/sum_of_vectors_2.py",
+        "description": "Write a function vect_sum that takes a list of vectors l, and returns the sum of theses vectors.\nNow, the vector's dimension might be > 2.\nYet, all vectors will have the same dimension.\nl will never be empty.\n\nHint: don't forget that the result should be a tuple, not a list ;)"
+    }
+]

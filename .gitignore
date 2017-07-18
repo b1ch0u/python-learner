@@ -1,0 +1,4 @@
+*.pyo
+*.zip
+screenshots
+__pycache__

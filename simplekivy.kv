@@ -1,0 +1,52 @@
+<LabelB>:
+    text_size: self.width, None
+    height: self.texture_size[1]
+    bcolor: 1,1,1,1
+    color: 0,0,0,1
+    font_size: 40
+    padding_y: 10
+
+<CodeTester>:
+    GridLayout:
+        id: code_tester
+        cols: 1
+        size_hint_y: None
+        height: self.minimum_height
+
+        Spinner:
+            id: tests_spinner
+            size_hint_y: None
+            text: root.spinner_text
+            values: root.spinner_values
+            on_text: root.change_test()
+            height: 100
+
+        LabelB:
+            id: test_instructions
+            text: root.instructions_text
+            bcolor: 0.4,0.8,0.8,1
+            color: 0,0.2,0.3,1
+            size_hint_y: None
+
+        CodeInput:
+            id: code_input
+            font_size: 40
+            hint_text: "#Enter your code here."
+            size_hint_y: None
+            height: 600
+            style: "monokai"
+            background_color: 0,0,0,1
+
+        Button:
+            text: "SEND"
+            color: 1,0,0,1
+            font_size: 40
+            size_hint_y: None
+            height: 100
+            on_release: root.test_code()
+
+        LabelB:
+            id: res_label
+            size_hint_y: None
+            bcolor: root.result_color
+            text: root.result_text
